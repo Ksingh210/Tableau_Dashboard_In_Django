@@ -1,0 +1,11 @@
+<html>
+    <head>
+        {% load staticfiles %}
+        <title>Tableau API With JS</title>
+        <script src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+        <script src="{% static 'dashboard/homeedit.js' %}"></script>
+    </head>
+    <body onload="initViz();">
+        <div id="tableauvisual"></div>
+    </body>
+</html>
